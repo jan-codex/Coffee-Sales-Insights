@@ -26,7 +26,8 @@ This dataset provides detailed records of coffee sales from a vending machine, c
 
 In this project, we imported data from https://www.kaggle.com/datasets/ihelon/coffee-sales a CSV file into Power BI for analysis and visualization.
 
-**Objectives**
+## Objectives
+
 This project aims to:
 1. Analyze coffee sales patterns by month.
 2. Identify coffee sales trends by hour.
@@ -36,7 +37,6 @@ This project aims to:
 **Step 1**: 
 1. Load the csv file in the Power BI.
 2. Steps to create a BaseMeasure table: Home --> Enter Data --> Type the table name here and click on create.
-3. ## Creating a New Measure in Power BI
 
 ## Creating a New Measure in Power BI  
 
@@ -51,4 +51,64 @@ Total Coffee Sale = SUM('Coffee Sales'[money])
 ```
 
 Now, you can use this measure to calculate the total coffee sales in your Power BI reports.
+4. Now go to --> Build --> card --> drag or select the (Total Coffee Sale) to visualize the total sale.
+
+**Step 2**:
+**Creating new columns in the Coffee Sales Table**
+1. Make a new column Month using the following Dax formula
+``` DAX
+Month = FORMAT('Coffee Sales'[date], "MMMM")
+```
+2. Also make Hour Column to use in the next Time table using the DAX formula
+   ```DAX
+   Hour = HOUR('Coffee Sales'[datetime])
+   ```
+2. Now Go to --> Build --> select bar chart --> add Month to the x-axis and money to the Y-axis.
+
+**Step 3**
+**Creating new table**
+1. Go to --> Modeling tab --> New table --> the copy this formula
+ ```DAX
+Time = 
+ADDCOLUMNS(
+    CROSSJOIN(
+        GENERATESERIES(1, 12, 1), // Generates hours from 1 to 12 (12-hour format)
+        DATATABLE("AM_PM", STRING, { {"AM"}, {"PM"} }) // Creates AM/PM values
+    ),
+    "Hour", [Value], // Stores the hour (1-12)
+    "Time Slot", 
+        SWITCH(
+            TRUE(),
+            [Value] = 12 && [AM_PM] = "AM", "Midnight",
+            [Value] >= 1 && [Value] < 6 && [AM_PM] = "AM", "Midnight - 6 AM",
+            [Value] >= 6 && [Value] < 12 && [AM_PM] = "AM", "Morning",
+            [Value] = 12 && [AM_PM] = "PM", "Noon",
+            [Value] >= 1 && [Value] < 6 && [AM_PM] = "PM", "Afternoon",
+            [Value] >= 6 && [Value] < 12 && [AM_PM] = "PM", "Evening"
+        )
+)
+```
+
+ This will make a Time table and added four new columns (AM_PM, Hour, Time Slot, Value) to viualize the coffee sale trend by hour.
+
+ **Step 4**:
+ **Making new Relationships**
+ 1. Go to **Model View** → Drag the **Hour** column from the **Coffee Sales** table to the **Hour** column in the new **Time** table.
+2. Now back to the Report view
+3. Go to --> Build --> Line Chart --> Add Time Slot then Hour to the X-axis. And add money to the Y-axis.
+
+**Step5**
+**Duplicate the pane and add new measure to the BaseMeasure**
+1. Go to BaseMeasure --> New measure and paste this formula
+```DAX
+Coffee Sale % = 
+DIVIDE(
+    [Total Coffee Sale], 
+    CALCULATE([Total Coffee Sale], ALL('Coffee Sales'[coffee_name]))
+)
+```
+
+2. Click on Coffee Sales by Month chart and Add **coffee_name** to Y-axis and **Coffee Sale %** to the X-axis
+
+
 
