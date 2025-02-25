@@ -30,8 +30,8 @@ In this project, we imported data from https://www.kaggle.com/datasets/ihelon/co
 
 This project aims to:
 1. Analyze coffee sales patterns by month.
-2. Identify coffee sales trends by hour.
-3. Determine coffee sales distribution by coffee type.
+2. Identify coffee sales **trends by hour**.
+3. Analyze the **percentage distribution** of coffee sales by **coffee type**.
 
 
 **Step 1**: 
