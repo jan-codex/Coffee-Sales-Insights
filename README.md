@@ -1,5 +1,5 @@
 <header>
-  <h1>Coffee Sales Project</h1>
+  <h1>Coffee Sales Dashboard: Analyzing Trends and Performance Using Power BI</h1>
   <p><em>Power BI dashboard to analyze coffee sales trends, patterns, and product performance.</em></p>
 </header>
 
