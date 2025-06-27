@@ -131,11 +131,13 @@ DIVIDE(
 
 <p>
   <h2>Key Decisions and Recommendations</h2>
-<ul>Promote Bestsellers: Focus on Latte, Americano with Milk, and Cappuccino as they drive the majority of sales.</ul>
+<ul>
+Promote Bestsellers: Focus on Latte, Americano with Milk, and Cappuccino as they drive the majority of sales.</li>
 
-<ul>Improve Espresso Sales: Investigate reasons for low performance and consider promotions or recipe adjustments.</ul>
+<li>Improve Espresso Sales: Investigate reasons for low performance and consider promotions or recipe adjustments.</li>
 
-Target Peak Hours: Boost marketing and staffing between 2 PM and 10 PM, when sales are highest.</ul>
+<li>Target Peak Hours: Boost marketing and staffing between 2 PM and 10 PM, when sales are highest.</li>
 
-Address February Drop: Analyze and respond to the sales decline in February with targeted offers or campaigns.</ul>
+<li>Address February Drop: Analyze and respond to the sales decline in February with targeted offers or campaigns.</li>
+</ul>
 </p>
