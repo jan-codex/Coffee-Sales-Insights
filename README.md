@@ -123,3 +123,5 @@ Figure 1 reveals that the total coffee sales amounted to **$97.8K**. The *top co
 In terms of sales trend by time of day, the data indicates a significant increase in coffee sales during the **afternoon to evening hours**, specifically from 2:00 PM (Afternoon) to 10:00 PM (Night).
 
 
+![Month Wise Trend](images/coffee%20insight2.png)
+
