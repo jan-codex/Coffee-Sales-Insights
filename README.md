@@ -115,6 +115,7 @@ DIVIDE(
 **Adding slicers for 'Total Coffee Sales', 'Date Interval', 'Cash Type', 'Date' and 'Month'.
 
 **End Results**
+![Overview of the result](images/Overview.png)
 
 
 
