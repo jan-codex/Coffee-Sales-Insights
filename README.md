@@ -115,7 +115,7 @@ DIVIDE(
 **Adding slicers for 'Total Coffee Sales', 'Date Interval', 'Cash Type', 'Date' and 'Month'.
 
 **End Results**
-![Overview of the result](images/coffeeinsight1.png)
+![Overview of the result](images/coffee%20insight1.png)
 *figure1: Power BI Dashboard Overview*
 
 Figure 1 reveals that the total coffee sales amounted to **$97.8K**. The *top contributing products were* **Latte**, **Americano with Milk**, and **Cappuccino**, contributing approximately **25.3%**, **22.7%**, and **15.7%**, respectively, to the overall revenue. On the other hand, **Espresso** recorded *the lowest contribution*, showing a modest growth of 2.4%.
