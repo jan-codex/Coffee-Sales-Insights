@@ -128,3 +128,14 @@ DIVIDE(
   Figure 2 highlights a <strong>declining trend in sales</strong>, with a notable drop in <strong>February</strong>, 
   where sales decreased to approximately <strong>$2.8K</strong>.
 </p>
+
+<p>
+  <h2>Key Decisions and Recommendations</h2>
+<ul>Promote Bestsellers: Focus on Latte, Americano with Milk, and Cappuccino as they drive the majority of sales.
+
+Improve Espresso Sales: Investigate reasons for low performance and consider promotions or recipe adjustments.
+
+Target Peak Hours: Boost marketing and staffing between 2 PM and 10 PM, when sales are highest.
+
+Address February Drop: Analyze and respond to the sales decline in February with targeted offers or campaigns.</ul>
+</p>
