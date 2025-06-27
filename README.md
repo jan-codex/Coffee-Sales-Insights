@@ -114,7 +114,7 @@ DIVIDE(
 **Step6** 
 **Adding slicers for 'Total Coffee Sales', 'Date Interval', 'Cash Type', 'Date' and 'Month'.
 
-**## End Results**
+## **End Results**
 ![Overview of the result](images/coffee%20insight1.png)
 *figure1: Power BI Dashboard Overview*
 
