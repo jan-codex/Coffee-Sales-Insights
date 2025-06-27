@@ -132,7 +132,7 @@ DIVIDE(
 <p>
   <h2>Key Decisions and Recommendations</h2>
 <ul>
-Promote Bestsellers: Focus on Latte, Americano with Milk, and Cappuccino as they drive the majority of sales.</li>
+<li>Promote Bestsellers: Focus on Latte, Americano with Milk, and Cappuccino as they drive the majority of sales.</li>
 
 <li>Improve Espresso Sales: Investigate reasons for low performance and consider promotions or recipe adjustments.</li>
 
