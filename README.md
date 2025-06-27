@@ -111,9 +111,6 @@ DIVIDE(
   <strong>Americano with Milk</strong>, and <strong>Cappuccino</strong>, contributing <strong>25.3%</strong>, 
   <strong>22.7%</strong>, and <strong>15.7%</strong>, respectively. <strong>Espresso</strong> had the lowest contribution, 
   with a modest growth of <strong>2.4%</strong>.
-</p>
-
-<p>
   Sales peaked during the <strong>afternoon to evening hours (2:00 PM to 10:00 PM)</strong>, indicating high customer activity 
   in those time slots.
 </p>
