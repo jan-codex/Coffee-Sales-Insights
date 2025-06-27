@@ -111,4 +111,10 @@ DIVIDE(
 2. Click on Coffee Sales by Month chart and Add **coffee_name** to Y-axis and **Coffee Sale %** to the X-axis
 
 
+**Step6** 
+**Adding slicers for 'Total Coffee Sales', 'Date Interval', 'Cash Type', 'Date' and 'Month'.
+
+**End Results**
+
+
 
