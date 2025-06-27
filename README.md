@@ -114,7 +114,7 @@ DIVIDE(
 **Step6** 
 **Adding slicers for 'Total Coffee Sales', 'Date Interval', 'Cash Type', 'Date' and 'Month'.
 
-**End Results**
+**## End Results**
 ![Overview of the result](images/coffee%20insight1.png)
 *figure1: Power BI Dashboard Overview*
 
@@ -124,4 +124,6 @@ In terms of sales trend by time of day, the data indicates a significant increas
 
 
 ![Month Wise Trend](images/coffee%20insight2.png)
+*figure2: Coffe Sale Trend by Month*
 
+Figure 2 illustrates a *declining trend in coffee sales*, with a significant **drop observed in February**, where sales fell to approximately **$2.8K**. 
