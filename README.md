@@ -115,7 +115,11 @@ DIVIDE(
 **Adding slicers for 'Total Coffee Sales', 'Date Interval', 'Cash Type', 'Date' and 'Month'.
 
 **End Results**
-[Overview of the result](images/Overview.png)
+![Overview of the result](images/Overview.png)
+*figure1: Power BI Dashboard Overview*
 
+The dashboard analysis reveals that the total coffee sales amounted to **$97.8K**. The *top contributing products were* **Latte**, **Americano with Milk**, and **Cappuccino**, contributing approximately **25.3%**, **22.7%**, and **15.7%**, respectively, to the overall revenue. On the other hand, **Espresso** recorded *the lowest contribution*, showing a negative growth of -2.4%.
+
+In terms of sales trend by time of day, the data indicates a significant increase in coffee sales during the **afternoon to evening hours**, specifically from 2:00 PM (Afternoon) to 10:00 PM (Night).
 
 
